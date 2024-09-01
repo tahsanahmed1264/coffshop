@@ -1,0 +1,171 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+.menu ul li a {
+    padding: 5px 0 !important;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 30px;
+    left: 45px;
+}
+.d_dm {
+    padding: 10px;
+    width: 220px;
+}
+.src {
+    padding: 5px 0px;
+}
+.bh1 {
+    font-size: 25px;
+}
+.bp2 {
+    font-size: 10px;
+}
+.b_link {
+    padding: 10px;
+    width: 120px;
+    height: 45px;
+}
+.row > * {
+    padding-right: 0;
+    padding-left: calc(var(--bs-gutter-x)* 0.5);
+    margin-top: var(--bs-gutter-y);
+}
+.horizental-line {
+    width: 260px;
+}
+.verticale-line2 {
+    width: 120px;
+}
+.s_h {
+    font-size: 25px;
+}
+.s_p {
+    font-size: 10px;
+}
+.verticale-line {
+    padding-bottom: 60px;
+    width: 1px;
+}
+.row > * {
+        padding-right: 0;
+        padding-left: 0;
+    }
+.body{
+     overflow-x: hidden;
+} 
+.im {
+    width: 50px;
+}  
+.p_item img {
+    margin-top: 15px;
+}
+.f1 {
+    width: 85%;
+}
+.f2 {
+    width: 85%;
+    margin-top: 25px;
+}
+.img-fluid {
+    padding-left: 30px;
+    max-width: 100%;
+    height: auto;
+}
+.rh6 {
+    padding-left: 35px;
+}
+.star {
+    padding-left: 35px;
+}
+.rps{
+    padding-left: 35px;
+}
+.box {
+    margin-left: 30px;
+}
+.arp {
+    padding-right: 60%;
+}
+.rdx {
+    font-size: 20px;
+}
+.ft_link h2 {
+    font-size: 11px;
+}
+.ft_link ul li a {
+    font-size: 11px;
+}
+.f_p {
+    font-size: 10px;
+}
+.ft_link img {
+    width: 50%;
+}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.menu ul li a {
+    padding: 5px 0 !important;
+}
+.src {
+    padding: 5px 0px;
+}
+.dropdown-menu[data-bs-popper] {
+    top: -3px;
+    left: 50px;
+}
+.bh1 {
+    font-size: 53px;
+}
+.bp2 {
+    font-size: 17px;
+}
+.body{
+     overflow-x: hidden;
+}   
+.im {
+    width: 142px;
+}
+.p_item {
+    padding-top: 30px;
+}
+.rdx {
+    padding-bottom: 14px;
+    font-size: 18px;
+}
+.ft_im {
+    width: 15% !important;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.bh1 {
+    font-size: 50px;
+}
+.bp2 {
+    font-size: 17px;
+}
+.horizental-line {
+    width: 785px;
+}
+.verticale-line2 {
+    width: 350px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/* Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}

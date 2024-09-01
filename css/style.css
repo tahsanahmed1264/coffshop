@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,700;1,100&display=swap');
+body{
+    overflow-x: hidden;
+    min-height: 100vh;
+    width: 100vw;
+}
+header{
+    padding: 15px;
+}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+     font-family: "Inter", sans-serif;
+     font-size: 20px;
+     padding: 0 25px !important;
+}
+ .menu ul li a:hover{
+    color: orange !important;
+}
+.nto:focus {
+    box-shadow: none;
+}
+/*search*/
+.d_d{
+    
+}
+.d_d a{
+    border: 0;
+}
+
+.d_d a i{
+     
+}
+.d_d a::after {
+display: none;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 50px;
+    left: -270px;
+    margin-top: 0;
+}
+.d_dm{
+    width: 300px;
+}
+.ddmi{
+border: 0;
+}
+.ddmb{
+    border: none;
+    background-color: transparent;
+}
+.ddmb i{
+    font-size: 20px;
+    padding: 10px;
+}
+.ddf{
+
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.src{
+    font-size: 20px;
+    padding: 10px;
+}
+.arc{
+    font-size: 20px;
+}
+
+/*banner text start*/
+.b_text{
+    margin: 80px 0 0 0;
+
+}
+.h_text{
+    font-family: "Playfair Display", serif;  
+}
+.p_text{
+    font-family: "Inter", sans-serif;
+}
+.b_link{
+    border-radius: 0 25px;
+    padding: 17px;
+    background-color: brown;
+    color: white;
+    width: 280px;
+    height: 60px;
+}
+.rc{
+    padding: 30px 30px 0;
+}
+/*banner text end*/
+/*banner image start*/
+.b_img{
+}
+.s_img{
+ 
+}
+.s_img img{
+  
+}
+.im{
+    padding: 2%;
+    width: 220px;
+}
+/*banner image end*/
+/*product start*/
+.h_text2{
+    text-align: center;
+}
+.pr_text{}
+.pr_text2{}
+/*produt end*/
+/*products slider start*/
+.slider {
+    margin: 40px;
+}
+.s_content{}
+.s_content img{
+    width: 200px;
+}
+.sp1{
+    font-weight: 600;
+}
+.p_item{}
+.p_item img{
+    height: 200px;
+    width: 260px;
+}
+.p_item2{
+    padding: 0 24px;
+}
+.p_item3{
+    font-family: "Inter", sans-serif;
+    margin: 20px auto;
+}
+.p1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 20px auto;
+    /*padding: 0 24px;*/
+}
+.but1{
+    float: right;
+    border: none;
+    background-color: brown;
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+}
+.but1 a{
+    
+}
+.but1 a i{
+    color: white;
+}
+.hr{
+    margin-top: 100px;
+}
+/*products slider end*/
+/*about us start*/
+.h2o{
+    margin: 60px 0;
+}
+.h6{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: silver;
+}
+.h2{
+    text-align: center;
+}
+.ph2{}
+/*image*/
+.f1{
+    width: 210px;
+    margin-right: 20px;
+    
+}
+.f2{
+    width: 210px;
+    padding-bottom: 80px;
+}
+.rme{
+    border: none;
+    background-color: brown;
+    width: 170px;
+    height: 55px;
+    border-radius: 0 20px;
+}
+
+.rme a{
+    color: white;
+   
+}
+.iro{
+    padding-left: 8px;
+}
+/*about us end*/
+/*review start*/
+.up_review{
+    margin: 60px auto;
+}
+.rh6{
+   
+}
+.star{
+
+}
+.rps{
+    font-family: "Inter", sans-serif;
+}
+/*review end*/
+/*article start*/
+.article{
+    margin-bottom: 10%;
+}
+.box{
+    border: 1px solid;
+    height: 105%;
+    border-radius: 0 80px 0 80px;
+}
+.r_img{
+    padding: 20px;
+    width: 100%;
+}
+.fs{
+    padding-left: 20px;
+}
+.arp{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    padding-right: 35%;
+    float: right;
+}
+.x{
+    float: right;
+}
+.x p{
+    padding-left: 16px;
+}
+.x p i{
+    margin-right: 8px;
+}
+.rdx{
+    margin: 0 5%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.vwts{
+    float: right;
+    padding-right: 6%;
+    color: black;
+
+}
+.vol{
+    margin-bottom: 40px;
+}
+/*article end*/
+    /*footer start*/
+.footer{
+        background-color: black;
+        padding-top: 80px;
+    }
+.f_p{
+        color: white;
+        padding: 30px 0;
+    }
+.f_p a{
+        color: white;
+    }
+.ft_link img{
+    width: 50%;
+    }
+.ft_link h2{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 30px;
+}
+.ft_link ul li a{
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: white;
+}
+.ft_im{
+    width: 10%;
+    padding: 5px;
+}
+.subscribe{
+
+}
+.ozy{
+    color: white;
+}
+.oxy{
+    background-color: brown;
+}
+.oly{
+
+}
+/*footer end*/
+            
+              
